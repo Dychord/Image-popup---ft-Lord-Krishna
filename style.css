@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    height: fit-content;
+    position: absolute;
+    z-index: -1;
+}
+img{
+    height: 500px;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.405);
+    display: none;
+}
+.img-pop{
+    display: none;
+    height: 750px;
+    width: 1600px;
+    background-color: rgb(253, 244, 162);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.img-pop img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
